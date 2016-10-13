@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D17348C1DAF2B1700BEF8DD /* NHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D17348B1DAF2B1700BEF8DD /* NHHomeViewController.m */; };
+		3D17348F1DAF2B2100BEF8DD /* NHDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D17348E1DAF2B2100BEF8DD /* NHDiscoverViewController.m */; };
+		3D1734921DAF2B3000BEF8DD /* NHCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1734911DAF2B3000BEF8DD /* NHCheckViewController.m */; };
+		3D1734951DAF2B3A00BEF8DD /* NHMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1734941DAF2B3A00BEF8DD /* NHMessageViewController.m */; };
 		3D1E08911DADDBB3009E94DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E08901DADDBB3009E94DD /* main.m */; };
 		3D1E089A1DADDBB3009E94DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1E08981DADDBB3009E94DD /* Main.storyboard */; };
 		3D1E089C1DADDBB3009E94DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1E089B1DADDBB3009E94DD /* Assets.xcassets */; };
@@ -31,6 +35,14 @@
 
 /* Begin PBXFileReference section */
 		1961A034533DA48889091028 /* Pods-NeiHan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeiHan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeiHan/Pods-NeiHan.debug.xcconfig"; sourceTree = "<group>"; };
+		3D17348A1DAF2B1700BEF8DD /* NHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHHomeViewController.h; sourceTree = "<group>"; };
+		3D17348B1DAF2B1700BEF8DD /* NHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHHomeViewController.m; sourceTree = "<group>"; };
+		3D17348D1DAF2B2100BEF8DD /* NHDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDiscoverViewController.h; sourceTree = "<group>"; };
+		3D17348E1DAF2B2100BEF8DD /* NHDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDiscoverViewController.m; sourceTree = "<group>"; };
+		3D1734901DAF2B3000BEF8DD /* NHCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCheckViewController.h; sourceTree = "<group>"; };
+		3D1734911DAF2B3000BEF8DD /* NHCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCheckViewController.m; sourceTree = "<group>"; };
+		3D1734931DAF2B3A00BEF8DD /* NHMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMessageViewController.h; sourceTree = "<group>"; };
+		3D1734941DAF2B3A00BEF8DD /* NHMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHMessageViewController.m; sourceTree = "<group>"; };
 		3D1E088C1DADDBB3009E94DD /* NeiHan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeiHan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1E08901DADDBB3009E94DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D1E08991DADDBB3009E94DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -197,6 +209,8 @@
 		3D1E08AD1DADDF85009E94DD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3D1734901DAF2B3000BEF8DD /* NHCheckViewController.h */,
+				3D1734911DAF2B3000BEF8DD /* NHCheckViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -236,6 +250,8 @@
 		3D1E08B21DADDF85009E94DD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3D17348D1DAF2B2100BEF8DD /* NHDiscoverViewController.h */,
+				3D17348E1DAF2B2100BEF8DD /* NHDiscoverViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,6 +291,8 @@
 		3D1E08B71DADDF85009E94DD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3D17348A1DAF2B1700BEF8DD /* NHHomeViewController.h */,
+				3D17348B1DAF2B1700BEF8DD /* NHHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -485,6 +503,8 @@
 		3D1E08D31DADDF86009E94DD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3D1734931DAF2B3A00BEF8DD /* NHMessageViewController.h */,
+				3D1734941DAF2B3A00BEF8DD /* NHMessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -764,12 +784,16 @@
 			files = (
 				3D1E08DD1DADE6D2009E94DD /* GLConst.m in Sources */,
 				3D1E090C1DAE4356009E94DD /* UIView+Tap.m in Sources */,
+				3D1734951DAF2B3A00BEF8DD /* NHMessageViewController.m in Sources */,
+				3D1734921DAF2B3000BEF8DD /* NHCheckViewController.m in Sources */,
 				3D1E08F21DAE2BB6009E94DD /* NHBaseViewController.m in Sources */,
+				3D17348C1DAF2B1700BEF8DD /* NHHomeViewController.m in Sources */,
 				3D1E090F1DAE440C009E94DD /* NHCustomLoadingAnimationView.m in Sources */,
 				3D1E09091DAE4356009E94DD /* UILabel+Addition.m in Sources */,
 				3D1E08E21DADED76009E94DD /* NHMainTabbarViewController.m in Sources */,
 				3D1E08F71DAE3003009E94DD /* NSNotificationCenter+Addition.m in Sources */,
 				3D1E090A1DAE4356009E94DD /* UIView+Frame.m in Sources */,
+				3D17348F1DAF2B2100BEF8DD /* NHDiscoverViewController.m in Sources */,
 				3D1E090B1DAE4356009E94DD /* UIView+Layer.m in Sources */,
 				3D1E09081DAE4356009E94DD /* MBProgressHUD+NHAddition.m in Sources */,
 				3D1E08D81DADDF86009E94DD /* AppDelegate.m in Sources */,
