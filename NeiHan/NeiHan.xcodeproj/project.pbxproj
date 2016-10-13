@@ -11,6 +11,8 @@
 		3D17348F1DAF2B2100BEF8DD /* NHDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D17348E1DAF2B2100BEF8DD /* NHDiscoverViewController.m */; };
 		3D1734921DAF2B3000BEF8DD /* NHCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1734911DAF2B3000BEF8DD /* NHCheckViewController.m */; };
 		3D1734951DAF2B3A00BEF8DD /* NHMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1734941DAF2B3A00BEF8DD /* NHMessageViewController.m */; };
+		3D1734981DAF6A7D00BEF8DD /* NHBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1734971DAF6A7D00BEF8DD /* NHBaseRequest.m */; };
+		3D17349C1DAF766800BEF8DD /* NHRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D17349B1DAF766800BEF8DD /* NHRequestManager.m */; };
 		3D1E08911DADDBB3009E94DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E08901DADDBB3009E94DD /* main.m */; };
 		3D1E089A1DADDBB3009E94DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1E08981DADDBB3009E94DD /* Main.storyboard */; };
 		3D1E089C1DADDBB3009E94DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1E089B1DADDBB3009E94DD /* Assets.xcassets */; };
@@ -43,6 +45,10 @@
 		3D1734911DAF2B3000BEF8DD /* NHCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCheckViewController.m; sourceTree = "<group>"; };
 		3D1734931DAF2B3A00BEF8DD /* NHMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMessageViewController.h; sourceTree = "<group>"; };
 		3D1734941DAF2B3A00BEF8DD /* NHMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHMessageViewController.m; sourceTree = "<group>"; };
+		3D1734961DAF6A7D00BEF8DD /* NHBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBaseRequest.h; sourceTree = "<group>"; };
+		3D1734971DAF6A7D00BEF8DD /* NHBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBaseRequest.m; sourceTree = "<group>"; };
+		3D17349A1DAF766800BEF8DD /* NHRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHRequestManager.h; sourceTree = "<group>"; };
+		3D17349B1DAF766800BEF8DD /* NHRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHRequestManager.m; sourceTree = "<group>"; };
 		3D1E088C1DADDBB3009E94DD /* NeiHan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeiHan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1E08901DADDBB3009E94DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D1E08991DADDBB3009E94DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1734991DAF765000BEF8DD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3D17349A1DAF766800BEF8DD /* NHRequestManager.h */,
+				3D17349B1DAF766800BEF8DD /* NHRequestManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		3D1E08831DADDBB3009E94DD = {
 			isa = PBXGroup;
 			children = (
@@ -155,9 +170,9 @@
 		3D1E08A71DADDF85009E94DD /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				3D1E08AA1DADDF85009E94DD /* Request */,
 				3D1E08A81DADDF85009E94DD /* Controller */,
 				3D1E08A91DADDF85009E94DD /* Model */,
-				3D1E08AA1DADDF85009E94DD /* Request */,
 				3D1E08AB1DADDF85009E94DD /* View */,
 			);
 			path = Base;
@@ -184,6 +199,8 @@
 		3D1E08AA1DADDF85009E94DD /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				3D1734961DAF6A7D00BEF8DD /* NHBaseRequest.h */,
+				3D1734971DAF6A7D00BEF8DD /* NHBaseRequest.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -533,6 +550,7 @@
 		3D1E08D71DADDF86009E94DD /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				3D1734991DAF765000BEF8DD /* Tools */,
 				3D1E08F81DAE30BA009E94DD /* Custom */,
 				3D1E08E61DAE2329009E94DD /* Lib */,
 				3D1E08DA1DADE68C009E94DD /* Define */,
@@ -783,9 +801,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1E08DD1DADE6D2009E94DD /* GLConst.m in Sources */,
+				3D1734981DAF6A7D00BEF8DD /* NHBaseRequest.m in Sources */,
 				3D1E090C1DAE4356009E94DD /* UIView+Tap.m in Sources */,
 				3D1734951DAF2B3A00BEF8DD /* NHMessageViewController.m in Sources */,
 				3D1734921DAF2B3000BEF8DD /* NHCheckViewController.m in Sources */,
+				3D17349C1DAF766800BEF8DD /* NHRequestManager.m in Sources */,
 				3D1E08F21DAE2BB6009E94DD /* NHBaseViewController.m in Sources */,
 				3D17348C1DAF2B1700BEF8DD /* NHHomeViewController.m in Sources */,
 				3D1E090F1DAE440C009E94DD /* NHCustomLoadingAnimationView.m in Sources */,
@@ -920,6 +940,7 @@
 			baseConfigurationReference = 1961A034533DA48889091028 /* Pods-NeiHan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				DEVELOPMENT_TEAM = HD8JGW3VRL;
 				GCC_PREFIX_HEADER = $SRCROOT/NeiHan/PrefixHeader.h;
 				INFOPLIST_FILE = NeiHan/Info.plist;
@@ -935,6 +956,7 @@
 			baseConfigurationReference = 40199F21EE2439774DB80F9D /* Pods-NeiHan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				DEVELOPMENT_TEAM = HD8JGW3VRL;
 				GCC_PREFIX_HEADER = $SRCROOT/NeiHan/PrefixHeader.h;
 				INFOPLIST_FILE = NeiHan/Info.plist;

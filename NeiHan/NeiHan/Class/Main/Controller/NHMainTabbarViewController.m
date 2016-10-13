@@ -32,17 +32,17 @@
     
     // 设置导航控制器
     UITabBarItem *item = [UITabBarItem appearance];
-    item.titlePositionAdjustment = UIOffsetMake(0, 5.0);
+    item.titlePositionAdjustment = UIOffsetMake(0, 0.5);
     
     // 普通状态
     NSMutableDictionary *normalAtts = [NSMutableDictionary dictionary];
-    normalAtts[NSFontAttributeName] = kFONT(14.0);
+    normalAtts[NSFontAttributeName] = kFONT(13.0);
     normalAtts[NSForegroundColorAttributeName] = kCOLOR_RGB(0.62, 0.62, 0.62);
     [item setTitleTextAttributes:normalAtts forState:UIControlStateNormal];
     
     // 选中状态
     NSMutableDictionary *selectAttrs = [NSMutableDictionary dictionary];
-    selectAttrs[NSFontAttributeName] = kFONT(14.0);
+    selectAttrs[NSFontAttributeName] = kFONT(13.0);
     selectAttrs[NSForegroundColorAttributeName] = kCOLOR_RGB(0.42, 0.42, 0.42);
     [item setTitleTextAttributes:selectAttrs forState:UIControlStateSelected];
 }

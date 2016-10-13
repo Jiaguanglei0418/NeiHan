@@ -51,6 +51,21 @@
 #define kPROPERTY_STRONG(Class, name)   @property (nonatomic, strong) Class *name;
 #define kPROPERTY_ASSIGN(Class, name)   @property (nonatomic, assign) Class name;
 #define kPROPERTY_BLOCK(Class, name)    @property (nonatomic, copy) Class name;
-#define kPROPERTY_DELEGATE(Class, name)    @property (nonatomic, assign) Class name;
+#define kPROPERTY_DELEGATE(Class, name)    @property (nonatomic, assign) id<Class> name;
+
+
+
+
+#ifdef DEBUG
+
+#define kLOG(...) printf(" %s\n",[[NSString stringWithFormat:__VA_ARGS__]UTF8String]);
+#define kLOG_CURRENT_METHOD NSLog(@"%@-%@", NSStringFromClass([self class]), NSStringFromSelector(_cmd))
+
+#else
+
+#define kLOG(...) ;
+#define kLOG_CURRENT_METHOD ;
+
+#endif
 
 #endif /* GLDefine_h */

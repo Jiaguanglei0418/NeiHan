@@ -10,6 +10,10 @@
 #import "NSNotificationCenter+Addition.h" // 发送通知
 #import "NHCustomNoNetworkEmptyView.h"    // 没有网络, 空白显示 View
 #import "NHCustomLoadingAnimationView.h"  // 加载动画
+#import "SDImageCache.h"
+#import "YYWebImageManager.h"
+#import "YYDiskCache.h"
+#import "YYMemoryCache.h"
 
 @interface NHBaseViewController ()
 
