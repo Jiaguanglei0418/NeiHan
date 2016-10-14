@@ -32,6 +32,16 @@
 		3D1E090B1DAE4356009E94DD /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E09051DAE4356009E94DD /* UIView+Layer.m */; };
 		3D1E090C1DAE4356009E94DD /* UIView+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E09071DAE4356009E94DD /* UIView+Tap.m */; };
 		3D1E090F1DAE440C009E94DD /* NHCustomLoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1E090E1DAE440C009E94DD /* NHCustomLoadingAnimationView.m */; };
+		3DFBEB051DB0C25B00FA043B /* NSAttributedString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBEAFA1DB0C25B00FA043B /* NSAttributedString+Size.m */; };
+		3DFBEB061DB0C25B00FA043B /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBEAFC1DB0C25B00FA043B /* NSString+Addition.m */; };
+		3DFBEB071DB0C25B00FA043B /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBEAFE1DB0C25B00FA043B /* NSString+Encrypt.m */; };
+		3DFBEB081DB0C25B00FA043B /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBEB001DB0C25B00FA043B /* NSString+Extension.m */; };
+		3DFBEB091DB0C25B00FA043B /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBEB021DB0C25B00FA043B /* NSString+Size.m */; };
+		3DFBEB0A1DB0C25B00FA043B /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBEB041DB0C25B00FA043B /* NSString+URL.m */; };
+		3DFBEB101DB0C3AC00FA043B /* NHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBEB0F1DB0C3AC00FA043B /* NHUtils.m */; };
+		3DFBEB131DB0D4C500FA043B /* NHServiceListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBEB121DB0D4C500FA043B /* NHServiceListRequest.m */; };
+		3DFBEB161DB0E4F300FA043B /* NHCommonAPIConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBEB151DB0E4F300FA043B /* NHCommonAPIConstant.m */; };
+		3DFBEB191DB0E5C800FA043B /* NHBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBEB181DB0E5C800FA043B /* NHBaseModel.m */; };
 		6C6185BC892F2BBD17CAC642 /* libPods-NeiHan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CD8C49F4D718DE5E4300E0 /* libPods-NeiHan.a */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +98,26 @@
 		3D1E09071DAE4356009E94DD /* UIView+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tap.m"; sourceTree = "<group>"; };
 		3D1E090D1DAE440C009E94DD /* NHCustomLoadingAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCustomLoadingAnimationView.h; sourceTree = "<group>"; };
 		3D1E090E1DAE440C009E94DD /* NHCustomLoadingAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCustomLoadingAnimationView.m; sourceTree = "<group>"; };
+		3DFBEAF91DB0C25B00FA043B /* NSAttributedString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Size.h"; sourceTree = "<group>"; };
+		3DFBEAFA1DB0C25B00FA043B /* NSAttributedString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Size.m"; sourceTree = "<group>"; };
+		3DFBEAFB1DB0C25B00FA043B /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		3DFBEAFC1DB0C25B00FA043B /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		3DFBEAFD1DB0C25B00FA043B /* NSString+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		3DFBEAFE1DB0C25B00FA043B /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
+		3DFBEAFF1DB0C25B00FA043B /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		3DFBEB001DB0C25B00FA043B /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		3DFBEB011DB0C25B00FA043B /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		3DFBEB021DB0C25B00FA043B /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		3DFBEB031DB0C25B00FA043B /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		3DFBEB041DB0C25B00FA043B /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
+		3DFBEB0E1DB0C3AC00FA043B /* NHUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHUtils.h; sourceTree = "<group>"; };
+		3DFBEB0F1DB0C3AC00FA043B /* NHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHUtils.m; sourceTree = "<group>"; };
+		3DFBEB111DB0D4C500FA043B /* NHServiceListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHServiceListRequest.h; sourceTree = "<group>"; };
+		3DFBEB121DB0D4C500FA043B /* NHServiceListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHServiceListRequest.m; sourceTree = "<group>"; };
+		3DFBEB141DB0E4F300FA043B /* NHCommonAPIConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCommonAPIConstant.h; sourceTree = "<group>"; };
+		3DFBEB151DB0E4F300FA043B /* NHCommonAPIConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCommonAPIConstant.m; sourceTree = "<group>"; };
+		3DFBEB171DB0E5C800FA043B /* NHBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBaseModel.h; sourceTree = "<group>"; };
+		3DFBEB181DB0E5C800FA043B /* NHBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBaseModel.m; sourceTree = "<group>"; };
 		40199F21EE2439774DB80F9D /* Pods-NeiHan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeiHan.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeiHan/Pods-NeiHan.release.xcconfig"; sourceTree = "<group>"; };
 		87CD8C49F4D718DE5E4300E0 /* libPods-NeiHan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeiHan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -107,8 +137,12 @@
 		3D1734991DAF765000BEF8DD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				3DFBEB0E1DB0C3AC00FA043B /* NHUtils.h */,
+				3DFBEB0F1DB0C3AC00FA043B /* NHUtils.m */,
 				3D17349A1DAF766800BEF8DD /* NHRequestManager.h */,
 				3D17349B1DAF766800BEF8DD /* NHRequestManager.m */,
+				3DFBEB141DB0E4F300FA043B /* NHCommonAPIConstant.h */,
+				3DFBEB151DB0E4F300FA043B /* NHCommonAPIConstant.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -192,6 +226,8 @@
 		3D1E08A91DADDF85009E94DD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3DFBEB171DB0E5C800FA043B /* NHBaseModel.h */,
+				3DFBEB181DB0E5C800FA043B /* NHBaseModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -338,14 +374,14 @@
 		3D1E08BB1DADDF86009E94DD /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3D1E08D01DADDF86009E94DD /* Request */,
 				3D1E08BC1DADDF86009E94DD /* Application */,
 				3D1E08BF1DADDF86009E94DD /* Controller */,
-				3D1E08C01DADDF86009E94DD /* Login */,
 				3D1E08C51DADDF86009E94DD /* Model */,
+				3D1E08D11DADDF86009E94DD /* View */,
+				3D1E08C01DADDF86009E94DD /* Login */,
 				3D1E08C61DADDF86009E94DD /* PersonalCenter */,
 				3D1E08CB1DADDF86009E94DD /* Publish */,
-				3D1E08D01DADDF86009E94DD /* Request */,
-				3D1E08D11DADDF86009E94DD /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -495,6 +531,8 @@
 		3D1E08D01DADDF86009E94DD /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				3DFBEB111DB0D4C500FA043B /* NHServiceListRequest.h */,
+				3DFBEB121DB0D4C500FA043B /* NHServiceListRequest.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -609,6 +647,7 @@
 		3D1E08F31DAE2FED009E94DD /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				3DFBEAF81DB0C25B00FA043B /* NSString */,
 				3D1E08F41DAE3003009E94DD /* Notification */,
 			);
 			path = Foundation;
@@ -657,6 +696,25 @@
 				3D1E09071DAE4356009E94DD /* UIView+Tap.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		3DFBEAF81DB0C25B00FA043B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				3DFBEAF91DB0C25B00FA043B /* NSAttributedString+Size.h */,
+				3DFBEAFA1DB0C25B00FA043B /* NSAttributedString+Size.m */,
+				3DFBEAFB1DB0C25B00FA043B /* NSString+Addition.h */,
+				3DFBEAFC1DB0C25B00FA043B /* NSString+Addition.m */,
+				3DFBEAFD1DB0C25B00FA043B /* NSString+Encrypt.h */,
+				3DFBEAFE1DB0C25B00FA043B /* NSString+Encrypt.m */,
+				3DFBEAFF1DB0C25B00FA043B /* NSString+Extension.h */,
+				3DFBEB001DB0C25B00FA043B /* NSString+Extension.m */,
+				3DFBEB011DB0C25B00FA043B /* NSString+Size.h */,
+				3DFBEB021DB0C25B00FA043B /* NSString+Size.m */,
+				3DFBEB031DB0C25B00FA043B /* NSString+URL.h */,
+				3DFBEB041DB0C25B00FA043B /* NSString+URL.m */,
+			);
+			path = NSString;
 			sourceTree = "<group>";
 		};
 		AA29DD7DBB7851D4B705DF40 /* Pods */ = {
@@ -801,10 +859,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1E08DD1DADE6D2009E94DD /* GLConst.m in Sources */,
+				3DFBEB051DB0C25B00FA043B /* NSAttributedString+Size.m in Sources */,
 				3D1734981DAF6A7D00BEF8DD /* NHBaseRequest.m in Sources */,
 				3D1E090C1DAE4356009E94DD /* UIView+Tap.m in Sources */,
+				3DFBEB091DB0C25B00FA043B /* NSString+Size.m in Sources */,
 				3D1734951DAF2B3A00BEF8DD /* NHMessageViewController.m in Sources */,
 				3D1734921DAF2B3000BEF8DD /* NHCheckViewController.m in Sources */,
+				3DFBEB131DB0D4C500FA043B /* NHServiceListRequest.m in Sources */,
+				3DFBEB161DB0E4F300FA043B /* NHCommonAPIConstant.m in Sources */,
+				3DFBEB0A1DB0C25B00FA043B /* NSString+URL.m in Sources */,
+				3DFBEB191DB0E5C800FA043B /* NHBaseModel.m in Sources */,
 				3D17349C1DAF766800BEF8DD /* NHRequestManager.m in Sources */,
 				3D1E08F21DAE2BB6009E94DD /* NHBaseViewController.m in Sources */,
 				3D17348C1DAF2B1700BEF8DD /* NHHomeViewController.m in Sources */,
@@ -812,10 +876,14 @@
 				3D1E09091DAE4356009E94DD /* UILabel+Addition.m in Sources */,
 				3D1E08E21DADED76009E94DD /* NHMainTabbarViewController.m in Sources */,
 				3D1E08F71DAE3003009E94DD /* NSNotificationCenter+Addition.m in Sources */,
+				3DFBEB061DB0C25B00FA043B /* NSString+Addition.m in Sources */,
 				3D1E090A1DAE4356009E94DD /* UIView+Frame.m in Sources */,
 				3D17348F1DAF2B2100BEF8DD /* NHDiscoverViewController.m in Sources */,
+				3DFBEB101DB0C3AC00FA043B /* NHUtils.m in Sources */,
 				3D1E090B1DAE4356009E94DD /* UIView+Layer.m in Sources */,
 				3D1E09081DAE4356009E94DD /* MBProgressHUD+NHAddition.m in Sources */,
+				3DFBEB071DB0C25B00FA043B /* NSString+Encrypt.m in Sources */,
+				3DFBEB081DB0C25B00FA043B /* NSString+Extension.m in Sources */,
 				3D1E08D81DADDF86009E94DD /* AppDelegate.m in Sources */,
 				3D1E08FC1DAE30DF009E94DD /* NHCustomNoNetworkEmptyView.m in Sources */,
 				3D1E08E51DAE1247009E94DD /* NHBaseNavigationViewController.m in Sources */,

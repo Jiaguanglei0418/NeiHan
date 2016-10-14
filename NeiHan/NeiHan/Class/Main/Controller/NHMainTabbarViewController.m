@@ -14,6 +14,8 @@
 #import "NHMessageViewController.h"
 #import "NHDiscoverViewController.h"
 
+#import "NHServiceListRequest.h" // 网络请求
+
 @interface NHMainTabbarViewController ()
 
 @end
@@ -56,15 +58,15 @@
     [self addChildViewControllerWithClassname:[NHCheckViewController description]imagename:@"audit" title:@"审核"];
     [self addChildViewControllerWithClassname:[NHMessageViewController description] imagename:@"newstab" title:@"消息"];
 
-//    NHServiceListRequest *request = [NHServiceListRequest nh_request];
-//    request.nh_url = kNHHomeServiceListAPI;
-//    [request nh_sendRequestWithCompletion:^(id response, BOOL success, NSString *message) {
-//        if (success) {
-//            NHBaseNavigationViewController *homeNav = (NHBaseNavigationViewController *)self.viewControllers.firstObject;
-//            NHHomeViewController *home = (NHHomeViewController *)homeNav.viewControllers.firstObject;
-//            home.models = [NHServiceListModel modelArrayWithDictArray:response];
-//        }
-//    }];
+    NHServiceListRequest *request = [NHServiceListRequest nh_request];
+    request.nh_url = kNHHomeServiceListAPI;
+    [request nh_sendRequestWithCompletion:^(id response, BOOL success, NSString *message) {
+        if (success) {
+            NHBaseNavigationViewController *homeNav = (NHBaseNavigationViewController *)self.viewControllers.firstObject;
+            NHHomeViewController *home = (NHHomeViewController *)homeNav.viewControllers.firstObject;
+            home.models = [NHServiceListModel modelArrayWithDictArray:response];
+        }
+    }];
 }
 
 
